@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: navy;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/* --------- form -------------- */
+
+#form{
+    /* border: 2px solid; */
+    width: 100%;
+    height: 3.5rem;
+}
+
+#form input{
+    border:2px solid red;
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: 100%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: .7rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+/* ----------- main ------------- */
+
+.container{
+    /* border:2px solid; */
+    padding: 1rem;
+    max-width: 800px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    gap:2.5rem;
+    margin: 1rem;
+    /* padding: 10rem; */
+    font-size: 1.5rem;
+    background-color: rgb(12, 12, 96);
+    padding: 3.5rem;
+    border-radius: 1.5rem;
+    margin-top: 3rem;
+    /* flex:1; */
+}
+
+/* .card .img-box{
+
+    border-radius: 50%;
+    width: 105rem;
+    height: 15rem;
+    border:10px solid rgb(31, 31, 111);
+} */
+
+.card .img-box{
+    /* border:2px solid; */
+    min-width:16rem;
+    height: 16rem;
+    margin: 1rem;
+}
+
+.img-box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border:10px solid rgb(31, 31, 111);
+}
+
+.card .user-info{
+    display: flex;
+    flex-direction: column;
+    gap:.8rem;
+    
+}
+
+.card h2{
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+.card .info{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.2rem;
+    font-size: 1.3rem;
+}
+
+.card #repos{
+    text-decoration: none;
+    font-size: 1rem;
+    
+}
+
+.card #repos a{
+    background-color: rgb(31, 31, 111);
+    padding: .5rem .8rem;
+    border-radius: .7rem;
+    margin: 0 1rem 1rem 0;
+    display: inline-block;
+}
+
